@@ -14,7 +14,7 @@ const Projects = () => {
       title: 'E-perfume',
       github: 'https://github.com/Rubinsam11/E-perfume',
       liveDemo: 'https://e-perfume-sams-projects-1db21b01.vercel.app/', // Replace with actual live demo link if available
-      imageUrl: '   https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYMECk-XvnkoznDqmZ083gSjbqnC-ZzZG0N-y9LgdcMA&s',
+      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9NU4Qt09Ot3SrNiycqgybDBkkzpi0mfxAExU99tPnavVQZ-W7SurzEb8&s=10',
     },
     {
       title: 'Group Project',
