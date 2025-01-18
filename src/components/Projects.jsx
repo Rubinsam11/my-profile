@@ -14,19 +14,19 @@ const Projects = () => {
       title: 'E-perfume',
       github: 'https://github.com/Rubinsam11/E-perfume',
       liveDemo: 'https://e-perfume-sams-projects-1db21b01.vercel.app/', // Replace with actual live demo link if available
-      imageUrl: './assets/project-2.png'
+      imageUrl: '   https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYMECk-XvnkoznDqmZ083gSjbqnC-ZzZG0N-y9LgdcMA&s',
     },
     {
       title: 'Group Project',
       github: 'https://github.com/Rubinsam11/grp-project',
       liveDemo: 'https://grpgroups.in/', // Replace with actual live demo link if available
-      imageUrl: './assets/project-3.png'
+      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYMECk-XvnkoznDqmZ083gSjbqnC-ZzZG0N-y9LgdcMA&s  ',
     },
     {
       title: 'Image Mining',
       github: 'https://github.com/Rubinsam11/image-mining',
       liveDemo: 'https://image-mining.vercel.app/', // Updated live demo link
-      imageUrl: './assets/project-4.png'
+      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_V-dHdudxpysexiVcZSXn0ZZTEfznFFXvLSC5FJHEIf2yxPRbd7dSZOlm&s=10',
     },
     {
       title: 'College Website',
