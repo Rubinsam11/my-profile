@@ -32,7 +32,7 @@ const Projects = () => {
       title: 'College Website',
       github: 'https://github.com/Rubinsam11/college_website',
       liveDemo: 'https://college-website-silk.vercel.app/', // Replace with actual live demo link if available
-      imageUrl: './assets/project-5.png'
+      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4wM1D20qbxpHxXOHUq9YVXlUazkcyCFyKxQ&usqp=CAU',
     }
   ];
 
