@@ -239,7 +239,7 @@
 .logoImage {
   width: 40px; /* Adjust the width of the logo image */
   height: auto; /* Maintain aspect ratio */
-  margin-right: 10px;
+  margin-right: 250px;
 }
 
 .logoText {
