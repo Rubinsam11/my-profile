@@ -14,7 +14,7 @@ const Projects = () => {
       title: 'Rs foods website',
       github: 'https://github.com/Rubinsam11/food-restaurant',
       liveDemo: 'https://food-restaurant-pied.vercel.app/', // Replace with actual live demo link if available
-      imageUrl: ''
+      imageUrl: './assets/food websit.png'
     },
     {
       title: 'E-perfume',
