@@ -1,6 +1,7 @@
 // src/components/Projects.jsx
 import React from 'react';
 import './Home.css';  // Corrected the import path for the CSS
+import foodImage from './assets/food image.png';
 
 const Projects = () => {
   const projects = [
@@ -14,7 +15,8 @@ const Projects = () => {
       title: 'Rs foods website',
       github: 'https://github.com/Rubinsam11/food-restaurant',
       liveDemo: 'https://food-restaurant-pied.vercel.app/', // Replace with actual live demo link if available
-      imageUrl: './assets/food image.png'
+       imageUrl: foodImage
+
     },
     {
       title: 'E-perfume',
