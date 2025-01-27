@@ -10,6 +10,12 @@ const Projects = () => {
       liveDemo: 'https://your-live-demo-url.com', // Replace with actual live demo link if available
       imageUrl: './assets/project-1.png'
     },
+     {
+      title: 'Rs foods website',
+      github: 'https://github.com/Rubinsam11/food-restaurant',
+      liveDemo: 'https://food-restaurant-pied.vercel.app/', // Replace with actual live demo link if available
+      imageUrl: ''
+    },
     {
       title: 'E-perfume',
       github: 'https://github.com/Rubinsam11/E-perfume',
