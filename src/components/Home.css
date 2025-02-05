@@ -177,9 +177,7 @@ section {
 }
 
 .title {
-  text-align: center;        /* Horizontally center the text */
-  margin: 0;                 /* Remove any default margin */
-  padding: 0;                /* Remove any default padding */
+  text-align: center;        /* Horizontally center the text *               /* Remove any default padding */
   font-size: 3rem;           /* Adjust size if needed */
   font-weight: bold;         /* Make the title bold */
   color: #333;               /* Set the text color (adjust as needed) */
