@@ -177,17 +177,21 @@ section {
 }
 
 .title {
-  font-size: 3rem;
- text-align: center;
-  font-size: 2.5rem;
-  margin-top: 1rem;
-  opacity: 0;
-  animation: fadeIn 2s forwards 1.5s;
-  margin-bottom: 2rem;
-   justify-content: center;
-  align-items: center;
+  text-align: center;        /* Horizontally center the text */
+  margin: 0;                 /* Remove any default margin */
+  padding: 0;                /* Remove any default padding */
+  font-size: 3rem;           /* Adjust size if needed */
+  font-weight: bold;         /* Make the title bold */
+  color: #333;               /* Set the text color (adjust as needed) */
+}
 
- 
+/* Centering the content using flexbox */
+.section__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Vertically center */
+  align-items: center;      /* Horizontally center */
+  height: 100vh;            /* Full viewport height */
 }
 
 #socials-container {
