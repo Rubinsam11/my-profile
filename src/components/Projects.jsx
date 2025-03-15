@@ -8,7 +8,7 @@ const Projects = () => {
     {
       title: 'Anime T-shirt Website',
       github: 'https://github.com/Rubinsam11/Anime_Tshirt_Website',
-      liveDemo: 'https://your-live-demo-url.com', // Replace with actual live demo link if available
+      liveDemo: 'https://anime-tshirt-website.vercel.app/', // Replace with actual live demo link if available
       imageUrl: "" // Corrected the typo in the image URL
     },
     { 
