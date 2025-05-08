@@ -1,8 +1,9 @@
 // src/components/Profile.jsx
 import React from 'react';
-import { FaLinkedin, FaGithub } from 'react-icons/fa';  // Import the icons from react-icons
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import './Home.css';
-import profile from '../assets/profile.png';  // Import image
+import profile from '../assets/profile.png';
+import TrueFocus from './TrueFocus'; // Ensure this path is correct
 
 const Profile = () => {
   return (
@@ -10,22 +11,30 @@ const Profile = () => {
       <div className="space-profile" />
       <section id="profile">
         <div className="section__pic-container">
-          {/* Use the imported image directly */}
           <img src={profile} alt="Rubin Sam profile" />
         </div>
         <div className="section__text">
           <p className="section__text__p1">Hello, I'm</p>
-          <h1 className="title">RUBIN SAM .S </h1>
+
+          {/* Animated Name */}
+          <TrueFocus 
+            sentence="RUBIN SAM .S"
+            manualMode={false}
+            blurAmount={5}
+            borderColor="green"
+            animationDuration={2}
+            pauseBetweenAnimations={1}
+          />
+<p className="space"></p>
           <p className="section__text__p2">
-            W E B  &  F U L L- S T A C K  D E V E L O P E R  <br />I N T E R N
+            W E B  &  F U L L- S T A C K  D E V E L O P E R  <br /> I N T E R N
           </p>
+
           <div className="btn-container">
-            <button
-              className="btn btn-color-2"
-              onClick={() => window.open('/resume.pdf', '_blank')}
-            >
-              Download CV
-            </button>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <button className="btn btn-color-2">Download CV</button>
+            </a>
+
             <button
               className="btn btn-color-1"
               onClick={() => window.location.href = '#contact'}
@@ -33,6 +42,7 @@ const Profile = () => {
               Contact Info
             </button>
           </div>
+
           <div id="socials-container">
             <FaLinkedin
               className="icon"
