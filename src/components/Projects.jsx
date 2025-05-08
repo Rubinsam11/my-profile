@@ -3,13 +3,18 @@ import './Home.css';
 import foodImage from '../assets/foodimage.png'; // Corrected the path to the image
 import projectImage from '../assets/project.png'; // Corrected the path for 'project' image
 import GrpImage from '../assets/grp.png';
+import gym from '../assets/gym.png';
+import  Ration from '../assets/Ration.png';
+import  weather from '../assets/weather.png';
+import anime from '../assets/amine.png';
+
 const Projects = () => {
   const projects = [
     {
       title: 'Anime T-shirt Website',
       github: 'https://github.com/Rubinsam11/Anime_Tshirt_Website',
       liveDemo: 'https://anime-tshirt-website.vercel.app/', // Replace with actual live demo link if available
-      imageUrl: "" // Corrected the typo in the image URL
+      imageUrl: anime // Corrected the typo in the image URL
     },
     { 
       title: 'Rs foods website',
@@ -17,6 +22,13 @@ const Projects = () => {
       liveDemo: 'https://food-restaurant-pied.vercel.app/', // Your actual live demo link
       imageUrl: foodImage  // Use the imported image here
     }, 
+    {
+
+      title: 'weather',
+      github: 'https://github.com/Rubinsam11/grp-project',
+      liveDemo: 'https://weather-sigma-pied.vercel.app/', // Replace with actual live demo link if available
+      imageUrl: weather
+    },
     {
       title: 'E-perfume',
       github: 'https://github.com/Rubinsam11/E-perfume',
@@ -30,17 +42,19 @@ const Projects = () => {
       imageUrl: GrpImage
     },
     {
-      title: 'Image Mining',
-      github: 'https://github.com/Rubinsam11/image-mining',
-      liveDemo: 'https://image-mining.vercel.app/', // Updated live demo link
-      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_V-dHdudxpysexiVcZSXn0ZZTEfznFFXvLSC5FJHEIf2yxPRbd7dSZOlm&s=10',
+      title: 'Gym website',
+      github: 'https://github.com/Rubinsam11/gym-websit-',
+      liveDemo: 'https://gym-websit-two.vercel.app/', // Replace with actual live demo link if available
+      imageUrl: gym
     },
     {
-      title: 'College Website',
-      github: 'https://github.com/Rubinsam11/college_website',
-      liveDemo: 'https://college-website-silk.vercel.app/', // Replace with actual live demo link if available
-      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4wM1D20qbxpHxXOHUq9YVXlUazkcyCFyKxQ&usqp=CAU',
-    }
+      title: 'Ration  managemnt system',
+      github: 'https://github.com/Rubinsam11/ration',
+      liveDemo: 'https://ration-flax.vercel.app/', // Replace with actual live demo link if available
+      imageUrl: Ration
+    },
+   
+ 
   ];
 
   return (
