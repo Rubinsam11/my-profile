@@ -25,7 +25,7 @@ const Profile = () => {
             animationDuration={2}
             pauseBetweenAnimations={1}
           />
-<p className="space"></p>
+
           <p className="section__text__p2">
             W E B  &  F U L L- S T A C K  D E V E L O P E R  <br /> I N T E R N
           </p>
