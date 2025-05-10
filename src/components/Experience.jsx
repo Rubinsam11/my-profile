@@ -21,7 +21,7 @@ const Experience = () => {
                 { name: 'CSS', icon: <FaCss3Alt className="icon" /> },
                 { name: 'JavaScript', icon: <FaJsSquare className="icon" /> },
                 { name: 'React', icon: <FaReact className="icon" /> },
-                { name: 'Bootstrap', icon: <SiBootstrap className="icon" /> },
+                { name: 'Bootstrap', icon: <SiBootstrap className="icon" /> }
               
               ].map((skill) => (
                 <article key={skill.name}>
